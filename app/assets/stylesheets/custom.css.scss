@@ -1,0 +1,30 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+
+html {
+  overflow-y: scroll; /* whether or not & how 
+  to clip or display content */ 
+}
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+} 
+
+
+textarea {
+  resize: vertical; /* displays a mechanism to resize vertically */
+}
+
+.center {
+  text-align: center; 
+}
+
+.center h1 {
+  margin-bottom: 10px; 
+}
