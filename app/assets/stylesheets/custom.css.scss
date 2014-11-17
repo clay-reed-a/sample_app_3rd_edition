@@ -28,3 +28,60 @@ textarea {
 .center h1 {
   margin-bottom: 10px; 
 }
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+  /* can take number (unitless), 
+  length (has a unit) 
+  or a percentage.
+  Number is n * element's font-size. 
+  Length means 
+  the box-height of the line 
+  is that length. 
+  The text appears in the center of the line. */
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  /* normal, or
+  intercharacter space in addition 
+  to the default space, so 1px 
+  less than normal */
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
